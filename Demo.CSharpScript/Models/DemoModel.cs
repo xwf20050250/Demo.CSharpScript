@@ -19,7 +19,7 @@ namespace Demo.CSharpScript.Models
         public static List<DemoModel> GetDemoDatas()
         {
             var list = new List<DemoModel>();
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 100; i++)
             {
                 list.Add(new DemoModel { ID = i, Age = i, Name = $"7tiny_{i}", Desc = $"第{i}条测试数据" });
             }

@@ -7,6 +7,7 @@ namespace Demo.CSharpScript.Models
 {
     public class Arg
     {
-        public string Name { get; set; }
+        public string arg1 { get; set; }
+        public List<DemoModel> models { get; set; }
     }
 }

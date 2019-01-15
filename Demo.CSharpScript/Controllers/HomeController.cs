@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Demo.CSharpScript.Models;
 using Microsoft.AspNetCore.Mvc;
-using Demo.CSharpScript.Models;
+using System.Diagnostics;
 
 namespace Demo.CSharpScript.Controllers
 {
@@ -12,7 +8,7 @@ namespace Demo.CSharpScript.Controllers
     {
         public IActionResult Index()
         {
-            return Redirect("/Demo/GetData?name='123'");
+            return View();
         }
 
         public IActionResult About()
