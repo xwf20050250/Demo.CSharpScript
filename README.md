@@ -1,3 +1,5 @@
+使用roslyn脚本化C#代码
+
 # Demo.CSharpScript
 将C#代码脚本化的，本Demo主要展示了如何使用Roslyn强力支持脚本化编程（C#）
 
